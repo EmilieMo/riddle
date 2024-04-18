@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62,2%;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -23,10 +26,10 @@ h2{
     margin-bottom: 20px;
 }
 
-/* img{
+img{
     max-width: 100%;
     height: auto;
-} */
+}
 
 ul {
     padding-left: 2rem;
@@ -209,7 +212,7 @@ main {
     }
 }
 
-/* card */
+/* ___________________card___________________*/
 .card {
     width: 400px; /* Augmentez la largeur de la carte */
     height: 300px; /* Augmentez la hauteur de la carte */
@@ -268,12 +271,70 @@ button:hover {
     transform: rotateY(0deg);
 }
 
+/* ____________Blog___________________ */
+
+.blog h1 {
+    text-align: center;
+}
+
+.blog__text {
+    margin-bottom: 3rem;
+}
+
+.article__card {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.article__img {
+    opacity: 0.9;
+}
+
+.article__card:hover img {
+    opacity: 1;
+}
+
+.stretched-link::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: "";
+}
+
+@media screen and (min-width:750px) {
+    .d-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 2rem;
+    }
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 6fr 2fr;
+    grid-column-gap: 2rem;
+    grid-template-areas:
+    "article sidebar"
+}
+
+.article {
+    grid-area: article;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+}
+
 /* ____________________footer______________________ */
 footer{
     background: rgb(244, 169, 169);
     color: #FFF;
     text-align: center;
     font-size: 1.4rem;
+    width: 100%;
 }
 
 footer p{
@@ -294,7 +355,7 @@ footer .socials li {
 }
 
 footer .socials a{
-    color: #FFF;
+    color: #060000;
     border: 1px solid #FFF;
     border-radius: 50%;
     padding: 1rem;

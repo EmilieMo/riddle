@@ -7,19 +7,19 @@
     <meta name="keywords" content="énigmes, devinettes, jeux de réflexion">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Énigmes</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/app.js"></script>
 </head>
 
 <body>
     <header class="header">
         <div class="container d-flex">
             <div class="logo">
-                Accueil
+                Actualités
             </div>
             <nav class="navbar">
                 <ul class="menu list-unstyled">
-                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="/index.html">Accueil</a></li>
                     <li><a href="/about.html">A propos</a></li>
                     <li><a href="/blog">Blog</a></li>
                     <li><a href="/contact.html">Contact</a></li>
@@ -35,129 +35,59 @@
         </div>
     </header>
 
-    <main>
-        <div class="card" id="card1">
-            <div class="front">
-                <h2>Énigme 1 :</h2>
-                <p>Je suis toujours devant tout le monde, mais je ne vous regarde jamais. Qui suis-je ?</p>
-                <button onclick="checkAnswer(1)">Vérifier</button>
+    <main class="blog">
+        <div class="container">
+    
+          <div class="section-header">
+          <h1>Blog</h1>
+          </div>
+    
+          <div class="d-grid">
+            <div class="d-grid__item article__card">
+              <img src="https://st4.depositphotos.com/36059186/41222/i/450/depositphotos_412220112-stock-photo-paris-france-september-2017-olympic.jpg" width="600" height="400" alt="sigle des JO devant la tour Eiffel" class="article__img">
+              <h3 class="article__title">Les JO approchent !!</h3>
+              <p class="article__text">Près d'une centaine d'étudiants ont manifesté en France, samedi 6 avril, devant le ministère des Sports contre la réquisition de logements du Crous ...
+              </p>
+              <a href="./article-1.html" class="article__link stretched-link">Lire la suite</a>
             </div>
-            <div class="back">
-                <p>La réponse est : L'avenir</p>
-                <button onclick="flipCard(1)">Retour</button>
+            <div class="d-grid__item article__card">
+              <img src="https://st2.depositphotos.com/1025323/8279/i/450/depositphotos_82798682-stock-photo-acceleration-of-connection.jpg" width="600" height="400" alt="tête artificielle dessiné représentant une IA avec des fils connectés" class="article__img">
+              <h3 class="article__title">Calculatrice de la mort : « Nous avons construit une IA capable de tout prédire sur la vie d'un individu »</h3>
+              <p class="article__text">Sune Lehmann, professeur à l'Université technique du Danamerk (DTU), a développé avec une équipe de chercheurs un algorithme capable de prédire les étapes de la vie jusqu'à la date de la mort.
+              </p>
+              <a href="./article-2.html" class="article__link stretched-link">Lire la suite</a>
             </div>
+            <div class="d-grid__item article__card">
+              <img src="https://picsum.photos/600/400?random=3" width="600" height="400" alt="image au hazard" class="article__img">
+              <h3 class="article__title">Automobile : ces nouvelles normes qui euthanasient les voitures</h3>
+              <p class="article__text">C'est un sigle barbare qui va injecter une nouvelle rafale d'obligations sécuritaires à l'ensemble des modèles, et certains n'ont pas été conçus pour cela...
+              </p>
+              <a href="./article-3.html" class="article__link stretched-link">Lire la suite</a>
+            </div>
+            <div class="d-grid__item article__card">
+              <img src="https://picsum.photos/600/400?random=4" width="600" height="400" alt="image au hazard" class="article__img">
+              <h3 class="article__title">Le "no-bra": quels sont les nombreux avantages ?</h3>
+              <p class="article__text">Ne plus porter de soutien-gorge est une grande tendance de la mode et du féminisme de nos jours, mais est-ce vraiment mieux que de porter un soutien-gorge ?
+              </p>
+              <a href="./article-4.html" class="article__link stretched-link">Lire la suite</a>
+            </div>
+            <div class="d-grid__item article__card">
+              <img src="https://www.shutterstock.com/image-photo/cigarettes-on-euro-bills-close-260nw-2329881241.jpg" width="600" height="400" alt="cette image représente des billets de banque de 50€ avec des cigarettes" class="article__img">
+              <h3 class="article__title">Fin de la limitation à une cartouche de cigarettes</h3>
+              <p class="article__text">Un décret du 27 mars 2024 supprime le seuil de cigarettes qu'un particulier peut rapporter en France d'un pays de l'Union européenne. Service-Public.fr vous explique.
+              </p>
+              <a href="./article-5.html" class="article__link stretched-link">Lire la suite</a>
+            </div>
+            <div class="d-grid__item article__card">
+              <img src="https://tse2.mm.bing.net/th?id=OIP.h2VBbvYyiI95ExLMDc2Z-QHaEn&pid=Api&P=0&h=180" width="600" height="400" alt="photo prise sur une rive montrant la pollution de la seine" class="article__img">
+              <h3 class="article__title">Port-Marly: la Seine jonchée de déchets après la décrue, les habitants sont lassés</h3>
+              <p class="article__text">En raison de la décrue de la Seine, les déchets de l'agglomération parisienne atterrissent à Port-Marly.
+              </p>
+              <a href="./article-6.html" class="article__link stretched-link">Lire la suite</a>
+            </div>
+          </div>
         </div>
-        <div class="card" id="card2">
-            <div class="front">
-                <h2>Énigme 2 : Médical</h2>
-                <p>Quel est le plus petit os du corps humain ?</p>
-                <button onclick="checkAnswer(2)">Vérifier</button>
-            </div>
-            <div class="back">
-                <p>La réponse est : L'étrier</p>
-                <button onclick="flipCard(2)">Retour</button>
-            </div>
-        </div>
-        <div class="card" id="card3">
-            <div class="front">
-                <h2>Énigme 3 : Cuisine</h2>
-                <p>Qui est souvent cité pour ses effets bénéfiques sur la santé cardiovasculaire, notamment pour abaisser la pression artérielle, réduire le cholestérol et améliorer la circulation sanguine ?</p>
-                <button onclick="checkAnswer(3)">Vérifier</button>
-            </div>
-            <div class="back">
-                <p>La réponse est : L'ail'</p>
-                <button onclick="flipCard(3)">Retour</button>
-            </div>
-        </div>
-        <div class="card" id="card4">
-            <div class="front">
-                <h2>Énigme 4 : Mathématiques</h2>
-                <p>Je suis un mathématicien célèbre qui a formulé les trois lois du mouvement et la loi de la gravitation universelle. Qui suis-je ?</p>
-                <button onclick="checkAnswer(4)">Vérifier</button>
-            </div>
-            <div class="back">
-                <p>La réponse est : Isaac Newton.</p>
-                <button onclick="flipCard(4)">Retour</button>
-            </div>
-        </div>
-        <div class="card" id="card5">
-            <div class="front">
-                <h2>Énigme 5 : Culture générale</h2>
-                <p>Quel est le plus grand océan du monde ?</p>
-                <button onclick="checkAnswer(5)">Vérifier</button>
-            </div>
-            <div class="back">
-                <p>La réponse est : L'océan Pacifique</p>
-                <button onclick="flipCard(5)">Retour</button>
-            </div>
-        </div>
-        <div class="card" id="card6">
-            <div class="front">
-                <h2>Énigme 6 : Technologie</h2>
-                <p>Quelle est la devise de Google ?</p>
-                <button onclick="checkAnswer(6)">Vérifier</button>
-            </div>
-            <div class="back">
-                <p>La réponse est : "Don't be evil" (Ne soyez pas malveillant)</p>
-                <button onclick="flipCard(6)">Retour</button>
-            </div>
-        </div>
-        <div class="card" id="card7">
-            <div class="front">
-                <h2>Énigme 7 : Animaux</h2>
-                <p>Quel est le plus grand animal du monde ?</p>
-                <button onclick="checkAnswer(7)">Vérifier</button>
-            </div>
-            <div class="back">
-                <p>La réponse est : La baleine bleue</p>
-                <button onclick="flipCard(7)">Retour</button>
-            </div>
-        </div>
-        <div class="card" id="card8">
-            <div class="front">
-                <h2>Énigme 8 : Littérature</h2>
-                <p>Je suis un célèbre détective privé britannique, créé par Sir Arthur Conan Doyle. Qui suis-je ?</p>
-                <button onclick="checkAnswer(8)">Vérifier</button>
-            </div>
-            <div class="back">
-                <p>La réponse est : Sherlock Holmes.</p>
-                <button onclick="flipCard(8)">Retour</button>
-            </div>
-        </div>
-        <div class="card" id="card9">
-            <div class="front">
-                <h2>Énigme 9 : Musique</h2>
-                <p>Je suis un célèbre groupe de rock britannique formé dans les années 1960, connu pour mes hits tels que 'Bohemian Rhapsody' et 'We Will Rock You'. Qui sommes-nous ?</p>
-                <button onclick="checkAnswer(9)">Vérifier</button>
-            </div>
-            <div class="back">
-                <p>La réponse est : Queen.</p>
-                <button onclick="flipCard(9)">Retour</button>
-            </div>
-        </div>
-        <div class="card" id="card10">
-            <div class="front">
-                <h2>Énigme 10 : Sport</h2>
-                <p>Je suis le sport national du Japon, où les lutteurs s'affrontent dans un ring de sable. Quel est ce sport ?</p>
-                <button onclick="checkAnswer(10)">Vérifier</button>
-            </div>
-            <div class="back">
-                <p>La réponse est : Le sumo.</p>
-                <button onclick="flipCard(10)">Retour</button>
-            </div>
-        </div>
-        <div class="card" id="card11">
-            <div class="front">
-                <h2>Énigme 11 : Cuisine</h2>
-                <p>Je suis un plat de pâtes italien, composé de fines feuilles de pâtes superposées avec de la sauce tomate, de la viande hachée et du fromage. Quel est mon nom ?</p>
-                <button onclick="checkAnswer(11)">Vérifier</button>
-            </div>
-            <div class="back">
-                <p>La réponse est : Les lasagnes</p>
-                <button onclick="flipCard(11)">Retour</button>
-            </div>
-        </div>
-    </main>
+      </main>
 
     <footer>
         <div class="container">
@@ -187,6 +117,6 @@
             </div>
         </div>
     </footer>
-    <script src="js/app.js"></script>
+    <script src="/js/app.js"></script>
 </body>
 </html>
